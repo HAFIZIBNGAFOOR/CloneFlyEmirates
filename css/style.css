@@ -1,0 +1,357 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  background-color: rgba(25,25,25,255);
+  justify-content: space-around;
+  width: 100%;
+}
+.flylogo{
+  background-color: #d71921;
+  width: 90px;
+  height: 125px;
+  position: absolute;
+  top: 0%;
+  left: 40px;
+
+}
+.brandlogo{
+  background: #d71921;
+  position: absolute;
+  width: 90px;
+  height: 50px;
+  top: 0px;
+  left: 40px;
+}
+.firstsection{
+  display: flex;
+  gap: 2%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+}
+.lastsection{
+  align-items: center;
+  gap: 2%;
+  width: 15%;
+  height: 55px;
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.secondline{
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  border-bottom: solid black;
+  border-width: 1px;
+  padding-left: 150px;
+  padding-right: 120px;
+}
+.button1{
+  color: #fff;
+  background-color:#d71921;
+  padding: 10px 1.5px;
+  border-radius: 3px;
+  width: 100px;
+  border: none; 
+}
+.scdfirstsection{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  gap: 5%;
+}
+.fstdiv a{
+  color: black;
+}
+.writtenbody{
+  background-color: #f6f6f6;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 225px;
+} 
+ h1{
+  font-size: 40px;
+}
+.writtenbody p{
+  text-align: center;
+} 
+.bgcolor{
+  background-color: #f6f6f6;
+ height: 800px;
+
+}
+.mainbody{
+  background-color:white;
+  height: 137px;
+  padding: 0px,100px; 
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 86%;
+ box-shadow:0 2px 4px 2px rgb(0 0 0 / 10%)
+}
+.travelentries{
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  border: 0 2px 4px 2px rgba(0,0,0,.1);
+  border-radius: 3px;
+}
+.flightdetails{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+input{
+  width: 318px;
+  text-align: center;
+  border:1px solid #666 ;
+  border-width: 2px;
+  border-radius: 3px;
+  box-shadow: inset 4px 4px 0 0 #f2f2f2;
+  height: 58px;
+  background-color:white;
+}
+.flightdetails button{
+  height: 60px;
+  width: 340px;
+  background-color: #d71921;
+  border: none;
+  color: #f2f2f2;
+}
+.travelentries a{
+
+  color: #d71921;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+.covid{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  margin-top: 50px;
+  background-color:white;
+  height: 90px; 
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 86%;
+  border-radius: 3px;
+  border-width: 2px;
+ box-shadow:0 2px 4px 2px rgb(0 0 0 / 10%)
+}
+.covid button{
+  color: black;
+  padding: 10px,20px;
+  width: 230px;
+  height: 40px;
+}
+.howtobook{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 86%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  padding: 10px 20px;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 3px;
+  border-width: 2px;
+  box-shadow:0 2px 4px 2px rgb(0 0 0 / 10%)
+}
+.howtobook h4{
+  padding-bottom: 20px;
+}
+.howtobook h3{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.lastemirates{
+  font-family: HelveticaNeue-Bold,Arial,Lucida Grande,sans-serif;
+  font-size: 1.4rem;
+  background-color: #282828;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  padding-left: 125px;
+  height: 50px;
+  gap: 2%;
+}
+.lastbody{
+  background-color:#333333;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 90px;
+ 
+}
+ul{
+  list-style: none;
+}
+.lastbody1section{
+  display: flex;
+  justify-content: space-around;
+}
+.lastbody2section{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+ .about {
+  width: 275px;
+  height: 229px;
+  line-height: 1.8rem;
+  list-style: none;
+} 
+.lastbody3section{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.applogo{
+  display: flex;
+  gap: 3%;
+}
+.applogo img{
+  background-color: #f6f6f6;
+  width: 30px;
+}
+.diffos{
+  display: flex;
+  gap: 3%;
+}
+.feedback{
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 1px 4px 1px #666;
+  background-color: #ffff;
+  width: 40px;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  flex-direction:column-reverse;
+  position: fixed;
+  right:0px;
+  top: 50%;
+}
+.feedback img{
+  width: 20px;
+  height: 20px;  
+}
+.feedback span{
+  margin-bottom: 30px;
+  transform: rotate(-90deg);
+}
+.lastbody3section h4{
+  color: #fff;
+  padding-bottom: 10px;
+}
+.lastbody a{
+  color: #a9a9a9;
+  text-decoration: dashed;
+  padding-bottom: 10px;
+}
+.lastbody3section p{
+  color: #a9a9a9;
+  padding-bottom: 10px;
+}
+ .mail input{
+  height: 38px;
+  width: 199px;
+}
+.mail button{
+  height: 40px;
+  width: 103px;
+  background-color:#333333;
+  border-radius: 3px;
+  color: #ffffff;
+  border:solid #ffffff;
+}
+ .mail :hover{
+  background-color: #ffffff;
+}
+.covid{
+  background-color: #fef7d7;
+  border-radius: 3px;
+  border: 1px solid #f7b500;
+}
+.lastbody4section{
+  padding-top: 20px;
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-between;
+
+}
+.lastbody4section img{
+  height: auto;
+  width: 100%; 
+}
+footer{
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.accessibility{
+  display: flex;
+  gap: 2%;
+  padding: 5px 90px;
+
+}
+.modern{
+  display: flex;
+  gap: 2%;
+  padding: 5px 90px;
+}
+.footerimg{
+  background-color: #d71921;
+  width: 90px;
+  height: 125px;
+  position:absolute;
+  bottom: 0%;
+  right: 60px;
+}
+.footerlogo{
+  position: absolute;
+  width: 90px;
+}
+.copyright{
+position: relative;
+display: flex;
+padding: 20px 90px;
+color:#ffffff;
+}
+hr{
+  width: 50%;
+}
+#newline{
+  width: 100%;
+}
+
+p{
+  line-height: 20px;
+
+}
